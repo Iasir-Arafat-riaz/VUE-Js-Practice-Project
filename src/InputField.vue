@@ -1,4 +1,5 @@
 <template>
+   
   <div>
     {{ formValues }}
   </div>
@@ -93,6 +94,8 @@
 
 <script>
 export default {
+    name:"InputField",
+    props:[],
   data() {
     return {
       formValues: {

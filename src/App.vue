@@ -22,7 +22,7 @@
       {{ key }} : {{ obj }}
     </p>
     <div v-for="(student, index) in students" :key="index">
-      <h3 v-if="student == 'Riaz'">{{ student }}</h3>
+      <h3 v-if="student == 'Riaz'">{{ student }}</h3>  
     </div>
 
     <h1>Func for Methods : {{addNum(5,14)}}</h1>
