@@ -39,7 +39,7 @@ watch:{
   currentVolume(newValue,oldValue){
     // console.log(newValue,oldValue)
     if(newValue>oldValue&&newValue==16){
-      alert("this volume hamper your ears")
+      alert("this volume hamper your ears.....")
     }
 
   },
